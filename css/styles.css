@@ -57,29 +57,29 @@
   .section {
     min-height: 100vh;
     padding: 4rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   h1 {
       color: #f6b815;
       padding: 5rem;
+      font-size: 3rem;
   }
 
-
+  h2 {
+    padding: 1.5rem;
+    color: #f6b815;
+    font-size: 2.5rem;
+    text-align: left;
+  }
 
   .gallery {
       text-align: left;
       border-top: .3rem solid #da505b; 
   }
 
-  .gallery h2 {
-      padding: 1.5rem;
-      color: #f6b815;
-      font-size: 2.5rem;
-  }
-
   .gallery span {
-      padding: 6rem;
+      padding: 3em;
   }
 
   .row {
@@ -99,13 +99,6 @@
       vertical-align: middle;
       width: 100%;
       border-radius: .4rem;
-  }
-
-  .about h2 {
-      color: #f6b815;
-      text-align: left;
-      padding: 1.5rem;
-      font-size: 2.5rem;
   }
 
   .about {
@@ -129,7 +122,7 @@
   .contact {
       min-height: 80vh;
       border-top: .3rem solid #da505b;
-      
+      font-size: 2rem;      
   }
 
   .menu {
@@ -137,13 +130,22 @@
     font-size: 2.5rem;
   }
   
-  .contact ul {
-      margin: 0 auto;
-      margin-top: 50em;
+  .personalContact {
+    text-align: left;
+    padding: 0;
+    margin-top: 5em;
+  }
+
+  .personalContact li {
+      list-style-type: none;
+  }
+
+  .social {
+      margin-top: 40em;
       padding: 0;
   }
 
-  .contact li {
+  .social li {
       list-style-type: none;
       padding: 0 2rem;
       font-size: 3rem;
