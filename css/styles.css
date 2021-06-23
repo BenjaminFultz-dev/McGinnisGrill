@@ -13,23 +13,23 @@
     margin: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #000;
-    color: #73cad1;
+    background: #211d1e;
+    color: #6ecdd0;
     text-align: center;
   }
   
   
 .topnav {
-    background-color: #000;
+    background-color: #231c1c;
     position: fixed !important;
-    overflow: hidden; 
+    overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     display: block;
-    color: #73cad1;
+    color: #6ecdd0;
     text-align: center;
     padding: 1.4rem 1.6rem;
     text-decoration: none;
@@ -38,14 +38,14 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #f63b34;
-    color: #ffeb2c;
+    background-color: #f6b815;
+    color: #da505b;
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #73cad1;
-    color: #ffeb2c;
+    background-color: #6ecdd0;
+    color: #da505b;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -55,21 +55,31 @@
   
   
   .section {
-    height: 100vh !important;
+    min-height: 100vh;
     padding: 4rem;
     font-size: 1.6rem;
   }
 
+  h1 {
+      color: #f6b815;
+      padding: 5rem;
+  }
+
+
+
   .gallery {
       text-align: left;
+      border-top: .3rem solid #da505b; 
   }
 
   .gallery h2 {
       padding: 1.5rem;
+      color: #f6b815;
+      font-size: 2.5rem;
   }
 
   .gallery span {
-      padding: 3rem;
+      padding: 6rem;
   }
 
   .row {
@@ -91,20 +101,81 @@
       border-radius: .4rem;
   }
 
-  .about img {
-      width: 100%;
-      height: auto;
-  }
-  
-  
-  .footer {
-    background-color: #f1f1f1;
-    padding: 1rem;
+  .about h2 {
+      color: #f6b815;
+      text-align: left;
+      padding: 1.5rem;
+      font-size: 2.5rem;
   }
 
-  /* When screen is less than 600 pixels wide, hide all links, except "Home". Show the hamburger menu (.icon) */
+  .about {
+    border-top: .3rem solid #da505b;
+    color: #6ecdd0;
+  }
+
+  .about img {
+    float: left;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+  .about p {
+      font-size: 2rem;
+      padding: 3rem;
+  }
+  
+  .contact {
+      min-height: 80vh;
+      border-top: .3rem solid #da505b;
+      
+  }
+
+  .menu {
+    color: #f6b815;
+    font-size: 2.5rem;
+  }
+  
+  .contact ul {
+      margin: 0 auto;
+      margin-top: 50em;
+      padding: 0;
+  }
+
+  .contact li {
+      list-style-type: none;
+      padding: 0 2rem;
+      font-size: 3rem;
+      display: inline-block;
+  }
+
+  .contact a {
+    color: #f6b815; 
+  }
+
+
+  .footer {
+    min-height: 20vh;
+    padding: 1rem;
+    border-top: .3rem solid #6ecdd0; 
+  }
+
+  .footer span {
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 0 auto;
+  }
+
+  
+
+
+
+
+
+  /* When screen is less than 600 pixels wide, hide all links. Show the hamburger menu (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
