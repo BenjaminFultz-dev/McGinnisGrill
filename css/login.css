@@ -5,10 +5,10 @@ html {
 }
 
 form {
-    margin: 30% auto;
+    margin: 35% auto;
     border: .3rem solid #6ecdd0;
     padding: 2rem;
-    width: 35rem;
+    width: 30rem;
     min-height: 13rem;
     text-align: center;
     border-radius: 1.5rem;
