@@ -18,4 +18,4 @@ function myFunction() {
           current[0].className = current[0].className.replace(" active", "");
           this.className += " active";
       })
-  }
+  } 
