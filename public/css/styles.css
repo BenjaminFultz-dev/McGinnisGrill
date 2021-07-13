@@ -68,8 +68,13 @@
       font-size: 3rem;
   }
 
+  .homeImage {
+    max-width: 75vh;
+    max-height: 75vh;
+  }
+
   .homeImage img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
   }
 
