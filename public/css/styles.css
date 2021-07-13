@@ -69,8 +69,8 @@
   }
 
   .home img {
-    max-width: 50% !important;
-    height: auto !important;
+    max-width: 50%;
+    height: auto;
   }
 
   h2 {
