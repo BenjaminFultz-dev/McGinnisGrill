@@ -57,7 +57,7 @@
   
   
   .section {
-    min-height: 100vh;
+    max-height: 100vh;
     padding: 4rem;
     font-size: 2rem;
     max-width: 100%;
