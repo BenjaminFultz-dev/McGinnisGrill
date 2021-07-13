@@ -57,10 +57,9 @@
   
   
   .section {
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 4rem;
     font-size: 2rem;
-    max-width: 100%;
   }
 
   h1 {
@@ -70,10 +69,8 @@
   }
 
   .home img {
-    /*max-width: 50%;
-    max-height: 50%;*/
-    width: 20px;
-    height: 20px;
+    max-width: 50%;
+    height: auto;
   }
 
   h2 {
