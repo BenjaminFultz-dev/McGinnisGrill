@@ -8,6 +8,8 @@
   
   html {
       font-size: 10px;
+      background: url(images/MCG_LOCKUP_WHITEBLUE.png) no-repeat center center fixed; 
+      background-size: cover;
   }
 
 
@@ -68,12 +70,10 @@
       font-size: 3rem;
   }
 
-  .home {
-    background: url(images/MCG_LOCKUP_WHITEBLUE.png) no-repeat center center fixed; 
-    background-size: cover;
-   /* max-width: 50%;
-    height: auto; */
-  }
+  /*.home {
+    max-width: 50%;
+    height: auto;
+  }*/
 
   h2 {
     padding: 1.5rem;
