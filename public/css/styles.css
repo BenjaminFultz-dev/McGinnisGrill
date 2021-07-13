@@ -68,9 +68,11 @@
       font-size: 3rem;
   }
 
-  .home img {
-    max-width: 50%;
-    height: auto;
+  .home {
+    background: url(images/MCG_LOCKUP_WHITEBLUE.png) no-repeat center center fixed; 
+    background-size: cover;
+   /* max-width: 50%;
+    height: auto; */
   }
 
   h2 {
