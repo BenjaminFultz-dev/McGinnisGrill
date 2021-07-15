@@ -207,6 +207,10 @@ iframe {
     background-color: #231c1c;
     color: #6ecdd0;
   }
+  .topnav a.active {
+    background-color: #6ecdd0;
+    color: #da505b;
+  }
 }
 
 /* Responsive layout for "Gallery". makes the two columns stack on top of each other instead of next to each other */
