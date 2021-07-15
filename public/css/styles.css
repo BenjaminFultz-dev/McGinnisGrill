@@ -37,10 +37,10 @@ body {
 }
 
 /* Change the color of links on hover */
-/* .topnav a:hover {
+.topnav a:hover {
   background-color: #f6b815;
   color: #da505b;
-} */
+}
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
@@ -202,6 +202,10 @@ iframe {
     float: left;
     display: block;
     text-align: left;
+  }
+  .topnav a:hover {
+    background-color: #231c1c;
+    color: #6ecdd0;
   }
 }
 
