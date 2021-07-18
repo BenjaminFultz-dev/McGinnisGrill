@@ -259,3 +259,17 @@ iframe {
     margin-top: 1em;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    padding: 0.8rem 0.8rem;
+    font-size: 1.2rem;
+  }
+}
