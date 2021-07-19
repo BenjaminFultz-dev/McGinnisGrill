@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@font-face {
+  font-family: "Hudson";
+  src: url("http://mcginnisgrill.com/fonts/HudsonNYProSerif-Bold.ttf");
+}
+
 html {
   font-size: 10px;
 }
@@ -64,10 +69,11 @@ h1 {
   color: #f6b815;
   padding: 5rem;
   font-size: 3rem;
+  font-family: "Hudson";
 }
 
 .home img {
-  max-width: 50%;
+  max-width: 80%;
   height: auto;
   margin-top: 1em;
 }
@@ -77,6 +83,7 @@ h2 {
   color: #f6b815;
   font-size: 2.5rem;
   text-align: left;
+  font-family: "Hudson";
 }
 
 .gallery {
@@ -109,8 +116,7 @@ h2 {
 }
 
 .about img {
-  float: left;
-  max-width: 40%;
+  max-width: 80%;
   height: auto;
   border-radius: 50%;
 }
@@ -244,12 +250,6 @@ iframe {
     margin: 0 auto;
     text-align: center;
     font-size: 1.8rem;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .about img {
-    float: none;
   }
 }
 
