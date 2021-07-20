@@ -73,7 +73,7 @@ h1 {
 }
 
 .home img {
-  max-width: 80%;
+  max-width: 60%;
   height: auto;
   margin-top: 1em;
 }
@@ -116,7 +116,7 @@ h2 {
 }
 
 .about img {
-  max-width: 80%;
+  max-width: 60%;
   height: auto;
   border-radius: 50%;
 }
@@ -241,6 +241,10 @@ iframe {
   }
   .section {
     font-size: 1.8rem;
+  }
+  .home img,
+  .about img {
+    max-width: 80%;
   }
 }
 
