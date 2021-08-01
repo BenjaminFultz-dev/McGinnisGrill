@@ -81,11 +81,11 @@ h1 {
 .review-row {
   display: flex;
   padding: 1rem;
-  margin: 1rem;
+  margin-top: 6em;
 }
 
 .review {
-  margin: 2rem;
+  margin: 1rem;
   vertical-align: middle;
   width: 100%;
 }
@@ -128,7 +128,7 @@ h2 {
 }
 
 .about img {
-  max-width: 60%;
+  max-width: 40%;
   height: auto;
   border-radius: 50%;
 }
