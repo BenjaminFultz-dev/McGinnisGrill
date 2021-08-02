@@ -60,7 +60,6 @@ body {
 }
 
 .section {
-  min-height: 100vh;
   padding: 4rem;
   font-size: 2rem;
 }
@@ -80,14 +79,19 @@ h1 {
 
 .review-row {
   display: flex;
-  padding: 1rem;
-  margin-top: 6em;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin-top: 5em;
 }
 
-.review {
-  margin: 1rem;
-  vertical-align: middle;
-  width: 100%;
+.review-column {
+  flex: 33.3%;
+  max-width: 33.3%;
+  padding: 0 2rem;
+}
+
+.review-source {
+  color: #f6b815;
 }
 
 h2 {
@@ -240,9 +244,13 @@ iframe {
 
 /* Responsive layout for "Gallery". makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .column {
+  .column,
+  .review-column {
     flex: 100%;
     max-width: 100%;
+  }
+  .review-column {
+    margin-top: 4em;
   }
 }
 
